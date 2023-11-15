@@ -74,19 +74,22 @@ class _FindFriendsState extends State<FindFriends> {
                                 SizedBox(
                                   width: 10,
                                 ),
-                                Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      myFriend.name,
-                                      style: Flutter95.textStyle,
-                                    ),
-                                    Text(
-                                      '${myFriend.mutualFriend.toString()} mutual friends',
-                                      style: Flutter95.disabledTextStyle,
-                                    ),
-                                  ],
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Text(
+                                        myFriend.name,
+                                        style: Flutter95.textStyle,
+                                      ),
+                                      Text(
+                                        '${myFriend.mutualFriend.toString()} mutual friends',
+                                        style: Flutter95.textStyle,
+                                      ),
+                                    ],
+                                  ),
                                 ),
                                 Row(
                                   children: [
