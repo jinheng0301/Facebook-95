@@ -279,6 +279,55 @@ class _HomePageState extends State<HomePage> {
                           ),
                         ],
                       ),
+                      Divider(
+                        height: 20,
+                        color: Colors.grey,
+                      ),
+                      Column(
+                        children: [
+                          Row(
+                            children: [
+                              SizedBox(
+                                width: 10,
+                              ),
+                              Container(
+                                height: 35,
+                                width: 35,
+                                color: Colors.yellow,
+                              ),
+                              SizedBox(
+                                width: 10,
+                              ),
+                              Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text(
+                                    'PokeTrump',
+                                    style: Flutter95.textStyle,
+                                  ),
+                                  Text(
+                                    '1h',
+                                    style: Flutter95.disabledTextStyle,
+                                  )
+                                ],
+                              ),
+                            ],
+                          ),
+                          SizedBox(
+                            height: 10,
+                          ),
+                          Text(
+                            'Piplup is a light-blue, penguin-like Pokémon, which is covered in thick down to insulate against the cold. It has a dark blue head with a primarily white face and a short, yellow beak.',
+                            style: Flutter95.textStyle,
+                          ),
+                          Image.asset(
+                            'images/post_image/piplup2.png',
+                            height: 300,
+                            width: size.width,
+                            fit: BoxFit.cover,
+                          ),
+                        ],
+                      ),
                     ],
                   ),
                 ),

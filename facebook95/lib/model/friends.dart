@@ -13,52 +13,52 @@ class Friends {
 final myFriendList = [
   Friends(
     image: 'images/profile_image/squirtile.png',
-    name: 'pokemon1',
+    name: 'Pokedex',
     mutualFriend: 20,
   ),
   Friends(
     image: 'images/profile_image/pikachu.jpg',
-    name: 'pokemon2',
+    name: 'PokeABC',
     mutualFriend: 30,
   ),
   Friends(
     image: 'images/profile_image/psyduck.png',
-    name: 'pokemon3',
+    name: 'PokeElon',
     mutualFriend: 35,
   ),
   Friends(
     image: 'images/profile_image/torterra.png',
-    name: 'pokemon4',
+    name: 'PokeTrump',
     mutualFriend: 80,
   ),
   Friends(
     image: 'images/profile_image/charmander.png',
-    name: 'pokemon5',
+    name: 'PokeBiden',
     mutualFriend: 20,
   ),
   Friends(
     image: 'images/profile_image/venusaur.jpeg',
-    name: 'pokemon6',
+    name: 'PokeXi',
     mutualFriend: 20,
   ),
   Friends(
     image: 'images/profile_image/meowth.png',
-    name: 'pokemon7',
+    name: 'PokePutin',
     mutualFriend: 20,
   ),
   Friends(
     image: 'images/profile_image/caterpie.png',
-    name: 'pokemon8',
+    name: 'PokeAnwar',
     mutualFriend: 20,
   ),
   Friends(
     image: 'images/profile_image/bulbasaur.png',
-    name: 'pokemon9',
+    name: 'PokeNajib',
     mutualFriend: 20,
   ),
   Friends(
     image: 'images/profile_image/piplup.png',
-    name: 'pokemon10',
+    name: 'PokeFam',
     mutualFriend: 20,
   ),
 ];
