@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter95/flutter95.dart';
 
 class FindFriends extends StatefulWidget {
-  const FindFriends({super.key});
+  static const String id = 'find_friends';
 
   @override
   State<FindFriends> createState() => _FindFriendsState();

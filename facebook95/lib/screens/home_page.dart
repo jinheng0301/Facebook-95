@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter95/flutter95.dart';
 
 class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+  static const String id = 'home_page';
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -293,7 +293,7 @@ class _HomePageState extends State<HomePage> {
                               Container(
                                 height: 35,
                                 width: 35,
-                                color: Colors.yellow,
+                                color: Colors.purple,
                               ),
                               SizedBox(
                                 width: 10,

@@ -17,11 +17,9 @@ class CustomBottomNavBar extends StatelessWidget {
             child: ButtonWidgets.button95WithIcon(
               Icons.dashboard_outlined,
               () {
-                Navigator.push(
+                Navigator.pushNamed(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => HomePage(),
-                  ),
+                  HomePage.id,
                 );
               },
             ),
@@ -30,11 +28,9 @@ class CustomBottomNavBar extends StatelessWidget {
             child: ButtonWidgets.button95WithIcon(
               Icons.groups,
               () {
-                Navigator.push(
+                Navigator.pushNamed(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => FindFriends(),
-                  ),
+                  FindFriends.id,
                 );
               },
             ),
