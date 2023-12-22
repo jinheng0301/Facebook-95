@@ -1,5 +1,3 @@
-import 'package:facebook95/screens/find_friends.dart';
-import 'package:facebook95/screens/home_page.dart';
 import 'package:facebook95/widgets/buttons.dart';
 import 'package:flutter/material.dart';
 
@@ -17,10 +15,10 @@ class CustomBottomNavBar extends StatelessWidget {
             child: ButtonWidgets.button95WithIcon(
               Icons.dashboard_outlined,
               () {
-                Navigator.pushNamed(
-                  context,
-                  HomePage.id,
-                );
+                // Navigator.pushNamed(
+                //   context,
+                //   HomePage.id,
+                // );
               },
             ),
           ),
@@ -28,10 +26,10 @@ class CustomBottomNavBar extends StatelessWidget {
             child: ButtonWidgets.button95WithIcon(
               Icons.groups,
               () {
-                Navigator.pushNamed(
-                  context,
-                  FindFriends.id,
-                );
+                // Navigator.pushNamed(
+                //   context,
+                //   FindFriends.id,
+                // );
               },
             ),
           ),

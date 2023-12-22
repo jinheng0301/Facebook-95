@@ -1,13 +1,11 @@
 import 'package:facebook95/widgets/buttons.dart';
 import 'package:facebook95/model/friends.dart';
 import 'package:facebook95/widgets/custom_bottom_nav_bar.dart';
-import 'package:facebook95/widgets/tool_bar.dart';
+import 'package:facebook95/model/tool_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter95/flutter95.dart';
 
 class HomePage extends StatefulWidget {
-  static const String id = 'home_page';
-
   @override
   State<HomePage> createState() => _HomePageState();
 }
